@@ -1,0 +1,136 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: white;
+  background-color: black;
+}
+.flex-container ul {
+  list-style: none;
+}
+
+.flex-container li {
+  list-style: none;
+}
+.flex-container {
+  display: flex;
+  background-color: #292828;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+a {
+  color: aliceblue;
+}
+.flex-container > div {
+  margin: 0px;
+  padding: 5px;
+  font-size: 16px;
+}
+
+.items {
+  flex: 80%;
+}
+
+.logo {
+  flex: 30%;
+}
+
+.img-fluid {
+  max-width: 100%;
+}
+.logo img {
+  width: 140px;
+  height: 140px;
+  outline: 1px solid white;
+  border-radius: 25%;
+}
+
+.items a:hover {
+  color: #e88741;
+}
+
+.active {
+  color: #e88741 !important;
+}
+
+h3 {
+  font-size: 16px;
+  text-decoration: underline;
+  font-weight: bolder;
+  padding-bottom: 5px;
+}
+table {
+  width: 100%;
+}
+
+table {
+  border: 1px dashed black;
+}
+td {
+  padding: 2px;
+  border: 1px solid #e88741;
+}
+
+/* Main body here */
+
+.Career_Objective {
+  padding: 20px;
+}
+
+.Professional_Experience {
+  padding: 20px;
+}
+
+.Work_Module {
+  padding: 20px;
+}
+
+.Projects_Details {
+  padding: 20px;
+}
+
+.Educational_Qualifications {
+  padding: 20px;
+}
+
+.Technical_Skills {
+  padding: 20px;
+}
+.Certifications {
+  padding: 20px;
+}
+
+.Others_Information {
+  padding: 20px;
+}
+
+.Personal_Information {
+  padding: 20px;
+}
+
+.References {
+  padding: 20px;
+}
+.Declaration {
+  padding: 20px;
+}
+
+.footer {
+  font-size: 20px;
+  text-align: center;
+  background: #292828;
+  height: 80px;
+}
+
+.footer p {
+  padding-top: 20px;
+}
+
+.footer p:hover {
+  color: #e88741;
+}
